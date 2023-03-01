@@ -1,0 +1,32 @@
+h1{
+    color:red;
+}
+h1{
+    color:red;
+}
+
+body{
+    color:pink;
+    background-color:aqua;
+     background-image: url(./images/github-512.webp);
+     background-repeat:no-repeat;
+     background-position:right;
+     /*background-attachment:scroll; */
+}
+
+#para1{
+    border-style:solid;
+    border-color:blue;
+    color:red;
+    background-color:azure;
+    border-top-style:dotted;
+    border-bottom-style:dashed;
+    border-bottom-left-style:dashed;
+
+}
+#para2{
+    border-radius: 20px;
+    border-style:dashed;
+    color:brown
+    border
+}
