@@ -1,0 +1,38 @@
+.sidebar{
+    background-color:blanchedalmond;
+    color:rgb(13, 15, 8);
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    padding-top: 20px;
+    top: 0;
+    left: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 10px;
+    padding: 20px;
+}
+
+li{
+    padding: 18px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:italic;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: blue;
+    color: red;
+}
+
+.rounded-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow-y: none;
+}
