@@ -1,18 +1,23 @@
+a{
+    text-decoration: none;
+}
 .sidebar{
-    background-color:blanchedalmond;
-    color:rgb(13, 15, 8);
+    background-color:black;
+    color:white;
     height: 100%;
     width: 200px;
     position: fixed;
-    padding-top: 20px;
+    padding-top: 50px;
     top: 0;
     left: 0;
 }
 
-ul{
+.sidebar ul{
+    text-align: center;
     list-style: none;
-    margin: 10px;
+    margin: 0px;
     padding: 20px;
+    font-style:italic;
 }
 
 li{
@@ -20,9 +25,13 @@ li{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style:italic;
 }
+nav{
+    text-align: center;
+}
 
-a{
+.sidebar a{
     text-decoration: none;
+    color: white;
 }
 
 a:hover{
@@ -30,9 +39,75 @@ a:hover{
     color: red;
 }
 
+.ll{
+    padding: 5px;
+    border: 1px solid white;
+    margin-bottom: 20p
+}
+
 .rounded-image{
     height: 100px;
     width: 100px;
     border-radius: 50%;
     overflow-y: none;
+}
+
+.my-name{
+    font-size: 40px;
+
+}
+
+.introduction{
+    margin-left: 350px;
+}
+
+.introduction-text{
+    font-size:25px;
+}
+
+.contact-me{
+    border: 1px solid red;
+    color:black;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.contact-me a{
+    border: 1px solid black;
+    border-radius: 5px;
+    color:white;
+    background-color: black;
+}
+
+.contact-me a:hover{
+    background-color: white;
+    color: black;
+    transition: 200ms ease-in-out;
+}
+
+.work{
+    margin-left: 200px;
+}
+.my-work h1{
+    margin-left: 200px;
+}
+
+.read-more{
+    padding: 10px;
+    border: 1px solid green;
+}
+
+.read-more a{
+    color:white;
+    background-color: green;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.read.more{
+    background-color: white;
+    color: black;
+    transition: 200ms ease-in-transition;
 }
